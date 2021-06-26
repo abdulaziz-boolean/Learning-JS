@@ -49,7 +49,7 @@ console.log(azizah.hobi("design"));
 
 # Constructor Function
 
-<p style="color: red">add new keyword</p>
+add `new` keyword
 
 ```
 function Student(name, age) {
