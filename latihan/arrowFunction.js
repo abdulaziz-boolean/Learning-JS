@@ -12,4 +12,4 @@ const countStudent = students.map((student) => ({
   count: student.length,
 }));
 
-console.log(countStudent);
+console.table(countStudent);
