@@ -118,7 +118,7 @@ console.log(aziz.address("jeringo"));
 
 ```
 
-## Clas in javascript
+## Class in javascript
 
 ```
 
