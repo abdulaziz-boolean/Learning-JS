@@ -1,4 +1,4 @@
-<h1> Different way to make objects </h1>
+<h1> Object in javascript </h1>
 
 # Object Literal
 
@@ -67,5 +67,28 @@ console.log(abdulaziz.hobi("coding"));
 let azizah = new Student("azizah", "20");
 console.log(azizah);
 console.log(azizah.hobi("design"));
+
+```
+
+# Object Create
+
+```
+  hoby: function (hobbies) {
+    console.log(`my hobi is ${hobbies}`);
+  },
+  address: function (village) {
+    console.log(`I live in ${village}`);
+  },
+};
+
+function Student(name, age) {
+  student = Object.create(methodStudent);
+  student.name = name;
+  student.age = age;
+  return student;
+}
+
+const aziz = new Student("abdulaziz", 22);
+console.log(aziz.hoby("coding"));
 
 ```
