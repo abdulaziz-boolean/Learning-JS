@@ -158,6 +158,8 @@ morning("aziz");
 afternoon("aziz");
 evening("aziz");
 
+`Or`
+
 let add = (function () {
   let count = 0;
   return function () {
