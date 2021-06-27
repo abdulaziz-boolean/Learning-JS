@@ -1,6 +1,6 @@
 <h1> Object in javascript </h1>
 
-# Object Literal
+### Object Literal
 
 ```
 let Student = {
@@ -23,7 +23,7 @@ console.log(Student2.hoby("design"));
 
 ```
 
-# Function Declaration
+### Function Declaration
 
 ```
 function Student(name, age) {
@@ -47,7 +47,7 @@ console.log(azizah);
 console.log(azizah.hobi("design"));
 ```
 
-# Constructor Function
+### Constructor Function
 
 add `new` keyword
 
@@ -70,9 +70,11 @@ console.log(azizah.hobi("design"));
 
 ```
 
-# Object Create
+### Object Create
 
 ```
+
+const methodStudent = {
   hoby: function (hobbies) {
     console.log(`my hobi is ${hobbies}`);
   },
